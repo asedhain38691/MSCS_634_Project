@@ -27,7 +27,18 @@ I began by removing a small number of missing values (2 per column) to ensure da
 
 ## Findings
 
+Regression
+
 | Model | R² | MSE | RMSE |
 | ----- | ----- | ----- | ----- | 
 | Linear Regression | 0.8247 | 420,384,287.74 | 20,503.28 |
 | Lasso Regression | 0.8271 | 414,594,524.94 | 20,361.59 |
+
+Classification
+
+
+| Model | Accuracy | F1-Score| 
+| ----- | ----- | ----- |
+| Decision Tree | 0.40 | 0.34 |
+| SVM | 0.37 | 0.33 |
+
