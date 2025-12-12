@@ -42,3 +42,43 @@ Classification
 | Decision Tree | 0.40 | 0.34 |
 | SVM | 0.37 | 0.33 |
 
+Clustering
+
+| Cluster | Age | Years of Experience | Salary |
+|-----|-----|-----|-----|
+| 0 | 43.00 | 14.00 | 120,000 |
+| 1 | 41.26 | 13.59 | 126,402 |
+| 2 | 42.00 | 14.00 | 115,000 |
+| 3 | 29.81 | 2.95 |49,483 |
+
+Association Rule Mining
+
+FP-Growth revealed strong patterns such as:
+	•	Employees who are female and have very high salaries often hold a PhD (Lift ≈ 4.04, Confidence ≈ 55%).
+	•	Employees with over 20 years of experience are likely to earn very high salaries (Lift ≈ 3.92, Confidence ≈ 89%).
+
+
+
+## Insights
+
+From this project, several important insights emerged:
+	1.	Experience and education are the strongest predictors of salary, aligning with labor-market expectations.
+	2.	Regression models outperform classification models, confirming that salary behaves more like a continuous variable than discrete categories.
+	3.	Clustering identifies a distinct early-career group, useful for designing targeted HR policies.
+	4.	Association rules highlight strong co-occurrences, particularly around PhD holders and high salaries, revealing potential career advancement pathways.
+
+
+## Ethical Considerations
+
+Salary data involves sensitive information, requiring careful attention to bias, fairness, and privacy:
+	•	Gender and demographic bias: Historical inequities may be reflected in the data
+	•	Algorithmic transparency: Clear communication is essential for pay-related decisions
+	•	Data privacy: Strong protections are needed for sensitive employee information 
+
+Recommendations:
+	1.	Conduct fairness audits to ensure model predictions do not reinforce disparities
+	2.	Adopt transparency measures like model cards to document model behavior 
+	3.	Strengthen data governance by anonymizing identifiers and restricting access to sensitive data.
+
+
+
