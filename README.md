@@ -53,10 +53,7 @@ Clustering
 
 Association Rule Mining
 
-FP-Growth revealed strong patterns such as:
-	•	Employees who are female and have very high salaries often hold a PhD (Lift ≈ 4.04, Confidence ≈ 55%).
-	•	Employees with over 20 years of experience are likely to earn very high salaries (Lift ≈ 3.92, Confidence ≈ 89%).
-
+FP-Growth revealed strong patterns such as: Employees who are female and have very high salaries often hold a PhD (Lift ≈ 4.04, Confidence ≈ 55%) and Employees with over 20 years of experience are likely to earn very high salaries (Lift ≈ 3.92, Confidence ≈ 89%).
 
 
 ## Insights
