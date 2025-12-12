@@ -19,13 +19,8 @@ The dataset includes 375 records with the following key features:
 I began by removing a small number of missing values (2 per column) to ensure dataset integrity. Exploratory Data Analysis (EDA) included histograms, scatter plots, boxplots, and a correlation heatmap to understand distributions and relationships among features. Categorical features were encoded using LabelEncoder (Gender), OrdinalEncoder (Education Level), and OneHotEncoder (Job Title). Numerical features were standardized, and basic feature engineering was performed, including creating bins for years of experience and salary categories. An 80/20 train-test split was applied to prevent data leakage.
 
 ### 2. Modeling
-	_Regression Models_: Linear Regression and Lasso Regression were implemented to predict salaries as a continuous variable. Feature engineering and interaction terms enhanced predictive power.
-	
-   _Classification Models_: Decision Tree and tuned SVM models were used to classify salaries into categories.
-   
-   _Clustering:_ K-Means clustering identified natural groupings in the dataset. The elbow method suggested four clusters, separating entry-level employees from mid-career professionals.
-   
-   _Association Rule Mining_: FP-Growth extracted patterns linking salary levels with gender, education, and experience, highlighting strong co-occurrences and potential pathways for career advancement.
+
+Linear Regression and Lasso Regression were implemented to predict salaries as a continuous variable whereas Decision Tree and tuned SVM models were used to classify salaries into categories. K-Means clustering identified natural groupings in the dataset. The elbow method suggested four clusters, separating entry-level employees from mid-career professionals. And FP-Growth extracted patterns linking salary levels with gender, education, and experience, highlighting strong co-occurrences and potential pathways for career advancement.
 
 
 ## Findings
